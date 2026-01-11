@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_button_event" id="u|Zr7$uJAW*]tl_.8;B^" x="507" y="-5"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_clear_display" id="Rd]IBM[,d21bJNTm(3/L"></block></statement></block><block type="device_button_event" id="yr7K~z%Hwm`m)U+^.`L," x="66" y="57"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_if" id="#N1XR_YZnXT,$Zv/2M}8"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="txIU:Irvz}KF@^{?gu=f"><field name="BOOL">TRUE</field></shadow><block type="logic_operation" id="g8zw.tjaQ[l-Mh`Wun=!"><field name="OP">OR</field><value name="A"><block type="logic_compare" id="2a(~Bi14LctofON6QV,s"><field name="OP">LT</field><value name="A"><shadow type="math_number" id="]{:wzw[p7E$mX[EeLu:z"><field name="NUM">0</field></shadow><block type="device_heading" id="B_rAHy+Bu=5]$,uC/3A)"></block></value><value name="B"><shadow type="math_number" id="G(5(-n3FP.=KR?0;K8/e"><field name="NUM">45</field></shadow></value></block></value><value name="B"><block type="logic_compare" id="=B*@4H$/M|0MisWSSns1"><field name="OP">GT</field><value name="A"><shadow type="math_number" id="A12{qP-8HC$WpGWm}Cc~"><field name="NUM">0</field></shadow><block type="device_heading" id="hA%rD5T|NzUJhZ;WYeD`"></block></value><value name="B"><shadow type="math_number" id="tz66/G`Wo-Q22~JfxeRC"><field name="NUM">315</field></shadow></value></block></value></block></value><statement name="DO0"><block type="device_show_leds" id="=Vn:WK@x2/eu!)iw5@`d"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="qxP)Rj;P4p;y@7g]4u,l"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block></statement></block></xml>
